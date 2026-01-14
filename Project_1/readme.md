@@ -15,3 +15,10 @@
 3. Rank
 
 -> Print formatted introduction
+
+## Stage 2: Rank Based Logic + Clean Structure
+
+### Goal
+
+* Normalize input (no "genin" vs "Genin" bugs)
+* Keep logic clean
