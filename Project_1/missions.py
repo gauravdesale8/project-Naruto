@@ -14,3 +14,8 @@ def show_intro(unpacked_data):
         print("The village relies on your experience.")
     else:
         print("Rank Unrecognized. Stay Alert!")
+
+def show_missions(unpacked_data):
+    print("\n----- MISSIONS PROGRESS -----")
+    for i in range(1, unpacked_data + 1):
+        print(f"Mission {i} completed.")

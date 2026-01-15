@@ -7,3 +7,11 @@ def get_shinobi_info():
 
 # .strip() removes accidental spaces
 # .title() standardizes chakra flow
+
+def get_mission_count():
+    while True:
+        try:
+            mission_count = int(input("\nHow many missions have you completed? "))
+            return mission_count
+        except ValueError:
+            print("Please enter a valid number.")

@@ -22,3 +22,11 @@
 
 * Normalize input (no "genin" vs "Genin" bugs)
 * Keep logic clean
+
+## Stage 3: Shadow clone training(loops)
+
+### Goal
+
+* Use a for loop
+* Repeat actions
+* Integrate cleanly into existing structure
