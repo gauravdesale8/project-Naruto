@@ -19,3 +19,8 @@ def show_missions(unpacked_data):
     print("\n----- MISSIONS PROGRESS -----")
     for i in range(1, unpacked_data + 1):
         print(f"Mission {i} completed.")
+
+def show_jutsus(unpacked_data):
+    print('\n----- KNOWN JUTSUS -----')
+    for jutsu in unpacked_data:
+        print('-', jutsu)

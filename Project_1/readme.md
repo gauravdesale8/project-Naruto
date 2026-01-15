@@ -30,3 +30,11 @@
 * Use a for loop
 * Repeat actions
 * Integrate cleanly into existing structure
+
+## Stage 4: Jutsu Scroll Storage (Lists)
+
+### Goal
+
+* Use a list
+* Collect multiple values
+* Display them cleanly
