@@ -38,3 +38,9 @@
 * Use a list
 * Collect multiple values
 * Display them cleanly
+
+## Final Stage
+
+### Goal
+
+* Mission failure handling (try/except)
