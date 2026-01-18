@@ -9,3 +9,10 @@
 * Add one method to the class
 * Call it from main.py
 * No new logic
+
+## Step 3: Let the Shinobi Think(Decision logic inside class.)
+
+### Goal:
+* Add one if/elif/else inside class
+* No new concepts
+* No new files

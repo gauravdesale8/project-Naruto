@@ -9,3 +9,13 @@ class Shinobi:
         print("Name: ", self.name)
         print("village: ", self.village)
         print("rank: ", self.rank)
+
+    def rank_message(self):
+        if self.rank == 'Genin':
+            print("\nReport to your sensei. Training begins today.")
+        elif self.rank == 'Chunin':
+            print("\nYou are trusted with real missions.")
+        elif self.rank == 'Jonin':
+            print("\nThe village relies on your experience.")
+        else:
+            print("\nRank unrecognized. Stay Alert!")

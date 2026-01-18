@@ -8,6 +8,7 @@ def main():
     shinobi = Shinobi(name, village, rank)
 
     shinobi.show_profile()
+    shinobi.rank_message()
 
 if __name__ == '__main__':
     main()
