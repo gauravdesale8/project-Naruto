@@ -16,3 +16,9 @@
 * Add one if/elif/else inside class
 * No new concepts
 * No new files
+
+## Step 4: Multiple Objects, One Flow
+
+### Goal:
+* One more class
+* Objects talking to each other
