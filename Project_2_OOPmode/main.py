@@ -12,7 +12,7 @@ def main():
     shinobi.show_profile()
     shinobi.rank_message()
 
-    count = int(input("\nHow many missions have you completed? "))
+    count = input("\nHow many missions have you completed? ")
     missions.show_missions(count)
 
 if __name__ == '__main__':

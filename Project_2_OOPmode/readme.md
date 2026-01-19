@@ -22,3 +22,10 @@
 ### Goal:
 * One more class
 * Objects talking to each other
+
+## Step 5: Responsibility + Validity
+
+### Goal:
+* Move validation into class
+* use try / except 
+* keep main.py simple
