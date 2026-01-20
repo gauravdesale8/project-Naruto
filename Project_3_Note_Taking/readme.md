@@ -11,3 +11,10 @@
 * Add a menu
 * Use a while loop
 * Let user choose actions
+
+## Step 3: Dictionaries (Real Data, Real Control)
+
+#### Goal:
+* Use a dictionary
+* Store note metadata
+* Still write as text

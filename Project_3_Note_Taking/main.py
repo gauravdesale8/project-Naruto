@@ -1,8 +1,14 @@
 def write_note():
-    note =  input("Write a note: ")
+    title = input("Title: ").strip()
+    content = input("Content: ").strip()
+
+    note = {
+        "title" : title,
+        "content" : content
+    }
 
     with open("notes.txt", "a") as file:
-        file.write(note +  "\n")
+        file.write(f"{note['title']} | {note['content']}\n")
 
 def read_notes():
     print("\n--- Your Notes ---")
