@@ -18,3 +18,10 @@
 * Use a dictionary
 * Store note metadata
 * Still write as text
+
+## Step 4: Validation + Edge Cases
+
+#### Goal:
+* Prevent empty notes
+* Handle missing file gracefully
+* keep user experience clean

@@ -1,6 +1,13 @@
 def write_note():
     title = input("Title: ").strip()
+    if not title:
+        print("Title cannot be empty.")
+        return
+
     content = input("Content: ").strip()
+    if not content:
+        print("Content cannot be empty.")
+        return
 
     note = {
         "title" : title,
@@ -13,9 +20,12 @@ def write_note():
 def read_notes():
     print("\n--- Your Notes ---")
 
-    with open("notes.txt","r") as file:
-        for line in file:
-            print(line.strip())
+    try:
+        with open("notes.txt","r") as file:
+            for line in file:
+                print(line.strip())
+    except FileNotFoundError:
+        print("No notes found yet.")
 
 def main():
     while True:
