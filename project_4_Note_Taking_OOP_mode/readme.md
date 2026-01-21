@@ -7,9 +7,16 @@
   1. Store Notes
   2. Display Notes
 
-## Step 2: User Input + Object State(OOP Way)
+## Step 2: User Input + Object State (OOP Way)
 
 #### Goals 🎯:
 * Take user input in main.py
 * Pass it into object via methods
-* Let the object manage it own state 
+* Let the object manage it own state
+
+## Step 4: Loop + Multiple Notes (State in Action)
+
+#### Goal 🎯:
+* Add a loop
+* Allow multiple notes
+* Keep logic untouched

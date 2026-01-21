@@ -3,10 +3,14 @@ from notes_app import NotesApp
 def main():
     app = NotesApp()
 
-    title = input("Title: ").strip()
-    content = input("Concept: ").strip()
+    while True:
+        title = input("Title (or 'exit' to stop): ").strip()
+        if title.lower() == "exit":
+            break
 
-    app.add_notes(title, content)
+        content = input("Concept: ").strip()
+        app.add_notes(title, content)
+
     app.show_notes()
 
 if __name__ == '__main__':
