@@ -9,10 +9,11 @@
 ✔ Error handling
 ✔ Medium-level Python thinking
 
-## Project 4: NoteTaking APP
+## Project 4: NoteTaking APP - OOP Mode
 
 ✔ Object state
 ✔ Encapsulation
 ✔ Responsibility separation
 ✔ File persistence in OOP
+
 ✔ Clean orchestration
