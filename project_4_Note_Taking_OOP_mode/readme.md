@@ -14,9 +14,16 @@
 * Pass it into object via methods
 * Let the object manage it own state
 
-## Step 4: Loop + Multiple Notes (State in Action)
+## Step 3: Loop + Multiple Notes (State in Action)
 
 #### Goal 🎯:
 * Add a loop
 * Allow multiple notes
 * Keep logic untouched
+
+## Step 4: File persistence inside the class
+
+#### Goal 🎯:
+* Add file saving
+* Add file loading
+* Keep everything else untouched

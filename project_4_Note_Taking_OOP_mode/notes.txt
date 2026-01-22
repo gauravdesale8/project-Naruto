@@ -1,0 +1,4 @@
+hello    |    good morning
+week 1   |   python done
+week 2  |  postgres done
+week 3 | pyspark done
