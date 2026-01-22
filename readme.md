@@ -8,3 +8,11 @@
 ✔ Input validation
 ✔ Error handling
 ✔ Medium-level Python thinking
+
+## Project 4: NoteTaking APP
+
+✔ Object state
+✔ Encapsulation
+✔ Responsibility separation
+✔ File persistence in OOP
+✔ Clean orchestration
