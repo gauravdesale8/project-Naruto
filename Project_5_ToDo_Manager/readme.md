@@ -9,3 +9,10 @@
 
 * Python Logic
 * OOPs structure
+
+## Step 2: Menu + Loop (Python Heavy , OOP-light)
+
+* Add a menu
+* Use a loop
+* Manage multiple tasks
+* Still use Task class only as data holder
