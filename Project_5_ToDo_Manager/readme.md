@@ -16,3 +16,9 @@
 * Use a loop
 * Manage multiple tasks
 * Still use Task class only as data holder
+
+## Step 3: Mark Task as Done (Tiny OOP Upgrade)
+
+* Mark a task as completed
+* Introduce one method in Task
+* keep logic mostly in main.py
