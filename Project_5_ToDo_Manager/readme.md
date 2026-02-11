@@ -22,3 +22,7 @@
 * Mark a task as completed
 * Introduce one method in Task
 * keep logic mostly in main.py
+
+## Step 4: Save & Load Tasks (Python heavy, OOP-support)
+
+* Task will persist using a file

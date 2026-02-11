@@ -1,8 +1,28 @@
 from task import Task
 
+def load_task(filename='tasks.txt'):
+    tasks = []
+
+    try:
+        with open(filename, 'r') as file:
+            for line in file:
+                title, completed = line.strip().split('|')
+                task = Task(title, completed == '1')
+                tasks.append(task)
+    except FileNotFoundError:
+        pass
+
+    return tasks
+
+def save_tasks(tasks, filename = 'tasks.txt'):
+    with open(filename, 'w') as file:
+        for task in tasks:
+            status = "1" if task.completed else "0"
+            file.write(f"{task.title} | {status}\n")
+
 
 def main():
-    tasks = []
+    tasks = load_task()
 
     while True:
         print("\n---- Task Manager ----")
@@ -41,7 +61,8 @@ def main():
                 print("\nPlease enter a number.")
 
         elif choice == '4':
-            print("GoodBye!")
+            save_tasks(tasks)
+            print("Task saved. GoodBye!")
             break
 
         else:
