@@ -26,3 +26,7 @@
 ## Step 4: Save & Load Tasks (Python heavy, OOP-support)
 
 * Task will persist using a file
+
+## Step 5: Small Refractor + Better Structure
+
+* Add a helper function

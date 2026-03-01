@@ -20,6 +20,18 @@ def save_tasks(tasks, filename = 'tasks.txt'):
             status = "1" if task.completed else "0"
             file.write(f"{task.title} | {status}\n")
 
+def display_tasks(tasks):
+    print("\n-----Tasks-----")
+
+    if not tasks:
+        print("No task available.")
+        return
+
+    for index, t in enumerate(tasks, start=1):
+        status = "Done" if t.completed else "Pending"
+        print(index, '.' ,t.title, '-', status)
+
+
 
 def main():
     tasks = load_task()
@@ -41,12 +53,10 @@ def main():
             tasks.append(task)
 
         elif choice == '2':
-            print("\n--- Tasks ---")
-            for index, t in enumerate(tasks, start=1 ):
-                status = "Done" if t.completed else "Pending"
-                print(index, '.', t.title, "-", status)
+            display_tasks(tasks)
 
         elif choice == '3':
+            display_tasks(tasks)
             task_no = input("Enter a task no. to mark done: ").strip()
 
             if task_no.isdigit():
