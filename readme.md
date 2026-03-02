@@ -15,5 +15,13 @@
 ✔ Encapsulation
 ✔ Responsibility separation
 ✔ File persistence in OOP
-
 ✔ Clean orchestration
+
+## Project 5: 
+
+✔ Core Technical Skills
+✔ Structural Understanding
+✔ File & Persistence Skills
+✔ Control Flow & Safety
+✔ Design Thinking
+
