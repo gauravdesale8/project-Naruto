@@ -19,3 +19,8 @@
 * Type Conversion inside class
 * Multifield records
 * Lists of complex objects
+
+## Step 3 - Aggregation (Totals & Category Tools)
+
+* Total Spending
+* Category Totals (Group By)

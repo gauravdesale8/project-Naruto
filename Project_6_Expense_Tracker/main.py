@@ -1,5 +1,13 @@
 from expense import Expense
 
+def show_total_expenses(expenses):
+    total = 0
+
+    for e in expenses:
+        total += e.amount
+
+    print("\nTotal Spending:", total)
+
 def main():
     expenses = []
 
