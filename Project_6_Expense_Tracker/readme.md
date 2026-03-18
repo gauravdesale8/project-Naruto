@@ -24,3 +24,8 @@
 
 * Total Spending
 * Category Totals (Group By)
+
+## Step 4 - Filter (Expenses by Category)
+
+* A *helper function* to filter
+* A *menu option* to call it

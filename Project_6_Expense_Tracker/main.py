@@ -8,6 +8,7 @@ def show_total_expenses(expenses):
 
     print("\nTotal Spending:", total)
 
+
 def show_category_totals(expenses):
     category_totals = {}
 
@@ -23,6 +24,22 @@ def show_category_totals(expenses):
         print(category, ":",total)
 
 
+def filter_by_category(expenses):
+    user_category = input("Enter category: ").strip()
+
+    print("\n---- Filter Expenses ----")
+
+    found = False
+
+    for e in expenses:
+        if e.category.lower() == user_category.lower():
+            print(e.date, '|',e.amount, '|',e.category, '|', e.description)
+            found = True
+
+    if not found:
+        print("No expenses found for this category.")
+
+
 def main():
     expenses = []
 
@@ -32,7 +49,8 @@ def main():
         print("2.View Expenses")
         print("3. Total Spending")
         print("4. Category Totals")
-        print("5. Exit")
+        print("5. Filter by Category")
+        print("6. Exit")
 
         choice = input("Choose option: ").strip()
 
@@ -57,6 +75,9 @@ def main():
             show_category_totals(expenses)
 
         elif choice == "5":
+            filter_by_category(expenses)
+
+        elif choice == "6":
             break
 
         else:
