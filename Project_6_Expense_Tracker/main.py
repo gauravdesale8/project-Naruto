@@ -1,4 +1,5 @@
 from expense import Expense
+from data_handler import load_expenses, save_expenses
 
 def show_total_expenses(expenses):
     total = 0
@@ -41,7 +42,7 @@ def filter_by_category(expenses):
 
 
 def main():
-    expenses = []
+    expenses = load_expenses()
 
     while True:
         print("\n---Expenses Tracker---")
@@ -78,6 +79,8 @@ def main():
             filter_by_category(expenses)
 
         elif choice == "6":
+            save_expenses(expenses)
+            print("Expenses saved. GoodBye!")
             break
 
         else:

@@ -29,3 +29,8 @@
 
 * A *helper function* to filter
 * A *menu option* to call it
+
+## Step 5 - File Persistence
+
+* We separate logic properly
+* Like Real-systems do
