@@ -25,3 +25,10 @@
 ✔ Control Flow & Safety
 ✔ Design Thinking
 
+## Project 6:
+
+✔ Data layer separation
+✔ Rebuilding objects from file
+✔ Writing structured data
+✔ Same architecture as real pipelines
+
